@@ -1,5 +1,5 @@
 // src/components/Feed.tsx
-import { supabase } from '../supabaseClient';
+import { supabase } from '../lib/supabase';
 
 const fetchFeed = async () => {
   // 1. Fetch posts
